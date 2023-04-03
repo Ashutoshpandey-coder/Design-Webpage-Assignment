@@ -1,0 +1,107 @@
+#body {
+  border: 2px solid black;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* first element header */
+#header {
+  text-align: center;
+  text-justify: inter-word;
+  background-color: mediumseagreen;
+  padding: 10px 0px;
+  border-bottom: 2px solid black;
+  color: white;
+}
+
+
+/* 
+Main part body 
+*/
+#bodyspan {
+  justify-content: space-around;
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+
+/* 1. student form */
+#studentform {
+  width: 100%;
+}
+.skills{
+    display: flex;
+}
+.skill-options{
+    width: 70px;
+}
+.btn-danger {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+
+/* 2.css for vertical partition between page */
+.vl {
+  border-left: 3px solid mediumseagreen;
+  height: 500px;
+}
+
+
+/* 3. student list */
+#studentlist{
+  padding: 1%;
+}
+#tablehead {
+  background-color: yellowgreen;
+  color: white;
+  position: sticky;
+  top: 0px;
+}
+#table-wrapper{
+    max-height: 390px;
+    overflow-y: scroll;
+}
+#tableName {
+  text-align: center;
+  text-justify: inter-word;
+  padding: 10px 0px;
+}
+.table {
+  margin-top: 20px;
+}
+.description-col {
+  width: 300px;
+}
+.image-col {
+  width: 120px;
+}
+.desc-row {
+  margin: 0%;
+  padding: 0%;
+}
+.col {
+  padding: 2em;
+}
+
+
+/* last element footer */
+#footer {
+  position: fixed;
+    text-align: center;
+    text-justify: inter-word;
+    background-color: mediumseagreen;
+    padding: 2px 0px;
+    color: white;
+    border-top: 2px solid black;
+    height: 30px;
+    width: 100%;
+    margin-top: auto;
+    left: 0;
+    bottom: 0;
+  }
+  
+
+
