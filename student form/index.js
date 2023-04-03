@@ -101,11 +101,7 @@ function checkEmptyFields(name, email, web, image) {
   if (name == "") alert("Name field is required!");
   else if (email == "") alert("Email field is required!");
   else if (web == "") alert("Website link is required!");
-  else if (!web.includes("http://", 0) || !web.includes("https://", 0))
-    alert("Invalid web url!");
   else if (image == "") alert("Image Url is required!");
-  else if (!image.includes("http://", 0) || !image.includes("https://", 0))
-    alert("Invalid image url!");
   else if (!email.includes("@")) alert("Email id must contain @ !");
   else emptyFields = true;
 }
